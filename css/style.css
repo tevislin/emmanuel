@@ -69,7 +69,8 @@ body {
 .aboutbox p {
   font-size: 30px;
 }
-.aboutbox p:hover {
+
+.aboutbox:hover p {
   font-size: 33px;
 }
 
@@ -78,4 +79,10 @@ body {
   height: 220px;
   font-size: 33px;
   margin-left: 5%;
+}
+/*PREVIOUS PROJECTS*/
+.card {
+  height: 550px;
+  width: 400px;
+  background-color: red;
 }
