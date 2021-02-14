@@ -81,11 +81,30 @@ body {
 }
 
 /*ABOURT ME*/
+.aboutme {
+  height: 100vh;
+}
 .aboutme h1 {
   text-align: center;
   align-items: center;
 }
-
+.picandtext {
+  display: flex;
+}
+.pic2 {
+  margin-top: 20px;
+  background-image: url(aboutme.png);
+  height: 600px;
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-left: 200px;
+}
+.textabout {
+  margin-left: 150px;
+  margin-right: 200px;
+}
 /*PREVIOUS PROJECTS*/
 .previousprojects h1 {
   text-align: center;
