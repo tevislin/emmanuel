@@ -109,11 +109,23 @@ body {
 /*PREVIOUS PROJECTS*/
 .cards {
   display: inline-flex;
+  margin-left: 20px;
 }
 .card {
-  height: 300px;
-  width: 450px;
+  height: 295px;
+  width: 430px;
   background-image: url(pic1.jpg);
   background-position: center;
   background-size: cover;
+  margin: 20px;
+  border-radius: 25px;
+}
+.navbut {
+  margin-top: 200px;
+  margin-left: 0;
+  height: 95px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 1px;
 }
