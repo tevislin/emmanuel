@@ -11,6 +11,13 @@ body {
 }
 .header h1 {
   padding-left: 50px;
+  transition: 0.8s;
+}
+.header h1:hover {
+  transform: translateY(-5px);
+  transform: translateX(-5px);
+  color: orange;
+  cursor: pointer;
 }
 .header ul {
   margin-left: 700px;
@@ -19,6 +26,11 @@ body {
   float: left;
   padding: 20px;
   list-style: none;
+  transition: 0.9s;
+}
+.header ul li :hover {
+  transform: translateX(-6px);
+  color: orange;
 }
 .header ul li a {
   text-decoration: none;
@@ -80,7 +92,12 @@ body {
   border-radius: 198px;
   margin-top: 134px;
   margin-left: 145px;
-  box-shadow: 0 0 30px orange;
+}
+.mypic:hover {
+  height: 435.6px;
+  border-radius: 217.8px;
+  width: 453.6px;
+  box-shadow: 0 0 15px orange;
 }
 
 /*ABOURT ME*/
@@ -107,72 +124,17 @@ body {
 }
 .textabout {
   margin-left: 150px;
-  margin-right: 200px;
+  margin-right: 100px;
   margin-top: 200px;
 }
+.textabout h2 {
+  font-size: 27px;
+}
+.textabout p {
+  font-size: 27px;
+}
 /*PREVIOUS PROJECTS*/
-.previousprojects {
-  height: 100vh;
-}
-#previous {
-  text-align: center;
-}
-.cards {
-  display: inline-flex;
-  margin-left: 20px;
-}
-.card {
-  height: 295px;
-  width: 430px;
-  background-position: center;
-  background-size: cover;
-  margin: 20px;
-  border-radius: 25px;
-  transition: 0.8s;
-}
-.card:hover {
-  transform: translateY(-15px);
-  height: 324px;
-  width: 473px;
-  box-shadow: 0 0 15px orange;
-}
-.card:hover button {
-  height: 324px;
-  width: 473px;
-  cursor: pointer;
-}
-.navbut {
-  height: 100%;
-  margin-left: 0;
-  height: 295px;
-  width: 100%;
-  border-radius: 25px;
-  background-color: transparent;
-  border: 1px;
-  font-size: 20px;
-  text-shadow: 0 0 5px orange;
-  color: white;
-  padding-top: 220px;
-}
 
-.card1 {
-  background-image: url(pic1.jpg);
-}
-.card2 {
-  background-image: url(pic2.jpg);
-}
-.card3 {
-  background-image: url(pic3.jpg);
-}
-.card4 {
-  background-image: url(pic4.jpg);
-}
-.card5 {
-  background-image: url(pic5.jpg);
-}
-.card6 {
-  background-image: url(pic6.jpg);
-}
 /*MY SKILLS*/
 .myskills {
   height: 100vh;
