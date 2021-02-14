@@ -68,13 +68,13 @@ body {
   margin-left: 50px;
 }
 .mypic {
-  height: 330px;
-  width: 330px;
-  background-image: url(me.jpg);
+  height: 396px;
+  width: 396px;
+  background-image: url(aboutme.png);
   background-position: center;
   background-size: cover;
-  border-radius: 165px;
-  margin-top: 200px;
+  border-radius: 198px;
+  margin-top: 134px;
   margin-left: 145px;
   box-shadow: 0 0 30px orange;
 }
@@ -119,13 +119,24 @@ body {
   background-size: cover;
   margin: 20px;
   border-radius: 25px;
+  transition: 0.8s;
+}
+.card:hover {
+  transform: translateY(-15px);
+  height: 324px;
+  width: 473px;
+  box-shadow: 0 0 15px orange;
 }
 .navbut {
-  margin-top: 200px;
+  height: 100%;
   margin-left: 0;
-  height: 95px;
+  height: 295px;
   width: 100%;
   border-radius: 25px;
   background-color: transparent;
   border: 1px;
+  font-size: 20px;
+  text-shadow: 0 0 5px orange;
+  color: white;
+  padding-top: 220px;
 }
