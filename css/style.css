@@ -107,6 +107,12 @@ body {
   margin-top: 200px;
 }
 /*PREVIOUS PROJECTS*/
+.previousprojects {
+  height: 100vh;
+}
+#previous {
+  text-align: center;
+}
 .cards {
   display: inline-flex;
   margin-left: 20px;
@@ -114,7 +120,6 @@ body {
 .card {
   height: 295px;
   width: 430px;
-  background-image: url(pic1.jpg);
   background-position: center;
   background-size: cover;
   margin: 20px;
@@ -126,6 +131,11 @@ body {
   height: 324px;
   width: 473px;
   box-shadow: 0 0 15px orange;
+}
+.card:hover button {
+  height: 324px;
+  width: 473px;
+  cursor: pointer;
 }
 .navbut {
   height: 100%;
@@ -139,4 +149,23 @@ body {
   text-shadow: 0 0 5px orange;
   color: white;
   padding-top: 220px;
+}
+
+.card1 {
+  background-image: url(pic1.jpg);
+}
+.card2 {
+  background-image: url(pic2.jpg);
+}
+.card3 {
+  background-image: url(pic3.jpg);
+}
+.card4 {
+  background-image: url(pic4.jpg);
+}
+.card5 {
+  background-image: url(pic5.jpg);
+}
+.card6 {
+  background-image: url(pic6.jpg);
 }
