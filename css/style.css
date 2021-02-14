@@ -61,12 +61,11 @@ body {
 }
 .icons {
   margin-top: 60px;
-  padding-left: 50px;
 }
 .iconpic {
   height: 40px;
   width: 40px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .mypic {
   height: 330px;
@@ -85,6 +84,7 @@ body {
   height: 100vh;
 }
 .aboutme h1 {
+  margin-top: 30px;
   text-align: center;
   align-items: center;
 }
@@ -104,17 +104,6 @@ body {
 .textabout {
   margin-left: 150px;
   margin-right: 200px;
+  margin-top: 200px;
 }
 /*PREVIOUS PROJECTS*/
-.previousprojects h1 {
-  text-align: center;
-}
-.card {
-  float: left;
-  position: center;
-  align-items: center;
-  height: 550px;
-  width: 400px;
-  background-color: red;
-  margin-left: 200px;
-}
