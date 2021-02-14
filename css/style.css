@@ -48,6 +48,7 @@ body {
 /*ABOURT ME*/
 .aboutme h1 {
   text-align: center;
+  align-items: center;
 }
 
 .aboutme nav {
@@ -56,8 +57,25 @@ body {
 .aboutbox {
   width: 80%;
   margin-left: 10%;
+  padding: 10px;
+  text-align: center;
   border-color: black;
+  height: 200px;
   border: 2px;
-  height: 90px;
-  background-color: blue;
+  background-color: orange;
+  border-radius: 30px;
+}
+
+.aboutbox p {
+  font-size: 30px;
+}
+.aboutbox p:hover {
+  font-size: 33px;
+}
+
+.aboutbox:hover {
+  width: 88%;
+  height: 220px;
+  font-size: 33px;
+  margin-left: 5%;
 }
