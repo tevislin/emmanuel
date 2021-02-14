@@ -10,6 +10,7 @@ body {
   background-position: center;
   position: relative;
   display: flex;
+  border-bottom: 5px orange;
 }
 .introtext {
   width: 50%;
@@ -40,4 +41,23 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 150px;
+  margin-top: 200px;
+  margin-left: 145px;
+  box-shadow: 0 0 30px orange;
+}
+/*ABOURT ME*/
+.aboutme h1 {
+  text-align: center;
+}
+
+.aboutme nav {
+  width: 40%;
+}
+.aboutbox {
+  width: 80%;
+  margin-left: 10%;
+  border-color: black;
+  border: 2px;
+  height: 90px;
+  background-color: blue;
 }
