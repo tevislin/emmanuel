@@ -173,14 +173,19 @@ body {
 .myskills {
   height: 100vh;
 }
+.myskills h1 {
+  text-align: center;
+}
 .loadingbar {
   height: 400px;
   height: 130px;
   width: 80%;
   margin-left: 10%;
+  margin-top: 30px;
   border: 3px;
   background-color: #bdc1c7;
   border-radius: 20px;
+  padding: 1%;
 }
 .loading {
   height: 25px;
@@ -192,10 +197,21 @@ body {
   border-color: black;
 }
 .loaded {
-  height: 100%;
-  width: 50%;
   background-color: yellow;
+  height: 100%;
   border-radius: 10px;
+}
+.lpython {
+  width: 7%;
+}
+.lhtml {
+  width: 37%;
+}
+.lcss {
+  width: 29%;
+}
+.ljavascript {
+  width: 8%;
 }
 .codelogo {
   height: 50px;
@@ -206,4 +222,9 @@ body {
   float: left;
   margin-left: 15px;
   position: relative;
+}
+.loaded1 {
+  font-size: 20px;
+  padding: 2.5px;
+  margin-left: 2.5px;
 }
